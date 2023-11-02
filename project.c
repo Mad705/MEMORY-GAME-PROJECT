@@ -153,7 +153,7 @@ int main(){
     new=NULL;
      seen=NULL;
     
-     
+    // Madhu is a bhosdi magga 
     insert_at_beg(&new,convert_string("begin"));
     add_at_end(new,convert_string("GOJO"));
     add_at_end(new,convert_string("YUJI"));
@@ -223,9 +223,5 @@ int main(){
   
   printf("GAME ENDED ");
   printf("YOUR FINAL POINTS : %d",points);
-
-
-  
-    
-
 }
+
