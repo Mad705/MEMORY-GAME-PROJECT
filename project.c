@@ -211,7 +211,7 @@ int main(){
     }
     else{
       lives--;
-      printf("PREVIOS WORD : WRONG ANSWER\n");
+      printf("PREVIOUS WORD : WRONG ANSWER\n");
     }
     }
      
