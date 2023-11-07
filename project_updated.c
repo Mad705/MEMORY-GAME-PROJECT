@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 
+
 typedef struct node{
         char data[50];
         struct node* link;
@@ -165,10 +166,10 @@ int main(){
   printf("Choose the genre: ");
   scanf("%d",&genre_choosing); 
 
-  
+   insert_at_beg(&new,convert_string("begin"));
     if(genre_choosing == 1){
 
-      insert_at_beg(&new,convert_string("begin"));
+      
       add_at_end(new,convert_string("LINKED LIST"));
       add_at_end(new,convert_string("TRESS"));
       add_at_end(new,convert_string("STACKS"));
@@ -186,7 +187,7 @@ int main(){
 
     else if(genre_choosing == 2){
 
-    insert_at_beg(&new,convert_string("begin"));
+   
     add_at_end(new,convert_string("GOJO"));
     add_at_end(new,convert_string("YUJI"));
     add_at_end(new,convert_string("MEGUMI"));
@@ -234,10 +235,12 @@ int main(){
      
      int user;
      scanf("%d",&user);
+     
+     
     if(user==gg){
       printf("PREVIOUS WORD : CORRECT ANSWER\n");
         points++;
-        //system("cls");
+        
     }
     else{
       if(lives==1){
@@ -252,6 +255,7 @@ int main(){
      
     
     i++;
+    
   }
   
 
