@@ -238,16 +238,19 @@ int main(){
      
      
     if(user==gg){
+      printf("\e[1;1H\e[2J");// this line clears console 
       printf("PREVIOUS WORD : CORRECT ANSWER\n");
         points++;
         
     }
     else{
       if(lives==1){
+        printf("\e[1;1H\e[2J");// this line clears console 
       printf("YOU LOST \n");
       break;
     }
     else{
+      printf("\e[1;1H\e[2J");// this line clears console 
       lives--;
       printf("PREVIOUS WORD : WRONG ANSWER\n");
     }
