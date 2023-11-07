@@ -201,7 +201,7 @@ int main(){
      int user;
      scanf("%d",&user);
     if(user==gg){
-      printf("PREVIOS WORD : CORRECT ANSWER\n");
+      printf("PREVIOUS WORD : CORRECT ANSWER\n");
         points++;
     }
     else{
